@@ -9,6 +9,7 @@ dist/
 build/
 static/
 tools/
+story
 
 # IDE
 .vscode/

@@ -46,7 +46,7 @@
         || document.querySelector('[class*="attachments"]');
 
     // 通用正则：匹配 "用户名(中文名)日期时间" 格式
-    // 例如: "业务知识补充.txtjeremyxia(夏玉洁)2026-03-02" 或 "文件.xlsx张三(张三)2026-03-02 15:30"
+    // 例如: "文件.xlsx张三(张三)2026-03-02 15:30"
     const userAndTimePattern = /[a-zA-Z0-9_\u4e00-\u9fa5]+\([^)]+\)\d{4}-\d{2}-\d{2}(?:\s*\d{2}:\d{2})?/;
     // 仅匹配时间部分：2026-03-02 或 2026-03-02 15:30
     const timeOnlyPattern = /\d{4}-\d{2}-\d{2}(?:\s*\d{2}:\d{2})?/;
