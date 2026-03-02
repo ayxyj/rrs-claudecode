@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+static/
+tools/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 工作区
+workspace/data/*
+workspace/logs/*
+!workspace/data/.gitkeep
+!workspace/logs/.gitkeep
+
+# 环境变量
+.env
+.env.local
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Claude local config
+.claude/*.local.md
